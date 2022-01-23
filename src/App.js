@@ -1,9 +1,11 @@
+import Jumbotron from "./chapter-2/Jumbotron";
+
 
 
 const App = () => {
-  return <div>
-    <h1>Hello World</h1>
-  </div>
+  return <>
+    <Jumbotron />
+  </>
 }
 
 export default App;
