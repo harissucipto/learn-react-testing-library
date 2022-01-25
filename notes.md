@@ -9,3 +9,5 @@
 ## A Test Double is generic term used to represent and object for testing purpose (chap3)
 
 ## Stubs are a term from Test double used to represent an object that replaces a real object for testing purpose
+
+## Unlike the getBy* and findBy* queries, queryBy\* queries do not throw an error and fail the test when an element is not found. queryBy\* queries return null when an element is not found, allowing you to assert the expected absence of elements in the DOM without test failure.

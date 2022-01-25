@@ -71,5 +71,6 @@ test('prevents GET request when search input empty', async () => {
 
   user.type(searchInput, '{enter}')
 
+  // we dont use findByRole in here because we want to expect the error message to be displayed
   expect(screen.queryByRole('heading')).not.toBeInTheDocument()
 })
