@@ -5,12 +5,13 @@
 
 // import EmployeeEmail from './chapter-3/EmployeeEmail'
 // import DrinkSearch from './chapter-3/DrinkSearch'
-import RetailApp from './chapter-4/context/Retail/App'
+// import RetailApp from './chapter-4/context/Retail/App'
+import RetailAppRedux from './chapter-4/redux/Retail/App'
 
 const App = () => {
   return (
     <>
-      <RetailApp />
+      <RetailAppRedux />
     </>
   )
 }
