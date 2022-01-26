@@ -4,12 +4,13 @@
 // import Vote from './chapter-3/Vote'
 
 // import EmployeeEmail from './chapter-3/EmployeeEmail'
-import DrinkSearch from './chapter-3/DrinkSearch'
+// import DrinkSearch from './chapter-3/DrinkSearch'
+import RetailApp from './chapter-4/context/Retail/App'
 
 const App = () => {
   return (
     <>
-      <DrinkSearch />
+      <RetailApp />
     </>
   )
 }
