@@ -15,8 +15,5 @@ it('renders with expected values', () => {
 it('has the correct class', () => {
   render(<Table employees={fakeEmployees} />)
 
-  expect(screen.getByRole('table')).toHaveAttribute(
-    'class',
-    'table table-striped'
-  )
+  expect(screen.getByRole('table')).toHaveClass('table table-striped')
 })

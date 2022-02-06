@@ -61,8 +61,9 @@ test('renders service unavailable', async () => {
 
   user.type(searchInput, 'vodka, {enter}')
 
-  expect(await screen.findByRole('heading', { name: /service unavailable/i }))
-    .toBeInTheDocument
+  expect(
+    await screen.findByRole('heading', { name: /service unavailable/i })
+  ).toBeInTheDocument()
 })
 
 test('prevents GET request when search input empty', async () => {

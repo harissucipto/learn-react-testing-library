@@ -1,4 +1,4 @@
-export default [
+const categories = [
   'Auto',
   'Bills',
   'Business',
@@ -15,5 +15,7 @@ export default [
   'Taxes',
   'Travel',
   'Gifts',
-  'Donations',
-];
+  'Donations'
+]
+
+export default categories
